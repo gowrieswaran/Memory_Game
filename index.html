@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <!-- Container for the game-->
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <!--Score panel-->
+        <section class="score-panel">
+            <!--stars-->
+        	<ul class="stars">
+        		<li><i class="fa fa-star "></i></li>
+        		<li><i class="fa fa-star "></i></li>
+        		<li><i class="fa fa-star "></i></li>
+        	</ul>
+            <!--moves-->
+            <span class="moves">0</span> Moves
+            <!--timer-->
+            <div class="timer">0 mins 0 secs</div>
+            <!--restart-->
+            <div class="restart">
+        		<i class="fa fa-repeat" onclick="resetGame()"></i>
+        	</div>
+        </section>
+        <!--deck which displays the cards-->
+        <ul class="deck">
+            <li class="card">
+                <i class="fa fa-android "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-facebook "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-github "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-google "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-linkedin "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-slack "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-pinterest "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-meetup "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-android "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-facebook "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-github "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-google "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-linkedin "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-slack "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-pinterest "></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-meetup "></i>
+            </li>
+        </ul>
+        <!--Modal to display when the game ends-->
+        <div class="modal hide">
+                <div class="modal_body">
+                    <div class="modal_heading">
+                        <h1 class="modal_title"> Congratulations!!! </h1>
+                    </div>
+                    <div class="modal_stats">
+                        <span class="modal_timer"> </span>
+                        <span class="modal_stars"> </span>
+                        <span class="modal_moves"> </span>
+                    </div>
+                    <div class="modal_replay_button">
+                        <button class="replay_button">Replay</button>
+                    </div>
+                </div>
+        </div> 
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
