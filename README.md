@@ -1,13 +1,8 @@
-# memory_game
-Memory game project repository
-
-Memory Game 
-
-About
+# Memory Game 
 
 A game to check your memory level
 
-Instructions
+## Instructions
 
 1. Click on a card to reveal its underlying symbol.
 2. Click on the second card, trying to find the matching card.
@@ -16,8 +11,8 @@ Instructions
 5. The game ends once all cards have been correctly matched.
 6. Once the game ends, a modal displays with the stats like no.of moves,stars and time taken to complete the game
 
-How to Play
-
-Open the index.html in browser
+```How to Play
 
 Live demo:
+
+https://gowrieswaran.github.io/Memory_Game/
