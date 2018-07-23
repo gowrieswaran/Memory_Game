@@ -1,6 +1,5 @@
 //constants
 const TOTAL_CARDS = 8;
-const STAR_COUNT = 3;
 
 // variables for deck, cards
 let deck = document.querySelector('.deck');
@@ -16,7 +15,7 @@ let movesCount = document.querySelector('.moves');
 let seconds, minutes;
 let timer = document.querySelector('.timer');
 let timeInterval;
-
+let STAR_COUNT = 3;
 
 // shuffle function
 function shuffle(array) {
