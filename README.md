@@ -11,8 +11,6 @@ A game to check your **memory** level
 5. The game ends once all cards have been correctly matched.
 6. Once the game ends, a modal displays with the stats like no.of moves,stars and time taken to complete the game
 
-```How to Play
-
-Live demo:
+## Live demo:
 
  https://gowrieswaran.github.io/Memory_Game/
