@@ -15,4 +15,4 @@ A game to check your **memory** level
 
 Live demo:
 
-[Click here to play the game!](https://gowrieswaran.github.io/Memory_Game/)
+ https://gowrieswaran.github.io/Memory_Game/
